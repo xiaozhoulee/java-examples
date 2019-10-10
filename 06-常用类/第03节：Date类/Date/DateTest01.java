@@ -3,7 +3,7 @@ package Date;
 
 // * 获取从 1970年1月1日 00时00分00秒 000毫秒 到当前的毫秒数
  //* 输出String和StringBuffer分别进行字符串拼接所需要的毫秒数
-
+ss
 public class DateTest01 {
 
     public static void main(String[] args) {
