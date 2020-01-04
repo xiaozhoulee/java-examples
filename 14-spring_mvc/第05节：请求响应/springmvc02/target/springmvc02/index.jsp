@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<a href="/user/testString">sdsda</a>
+<a href="/user/testString">testString</a>
 <button id="btn">发送ajax</button>
 
 <script src="js/jquery.min.js"></script>
@@ -31,14 +31,11 @@
              //设置请求格式
              type:"post",
              success:function (data) {
+              //data服务器端响应的json数据，进行解析
+
                  alert(data.username)
 
              }
-             // succsess:function () {
-             //     //data服务器端响应的json数据，进行解析
-             //     alert(data)
-             //     alert(data.username)
-             // }
          })
      })
     })
