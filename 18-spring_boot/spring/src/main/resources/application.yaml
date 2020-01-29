@@ -1,0 +1,11 @@
+person:
+  name: wangtiedan
+  age: 3
+  gender: true
+  cat:
+    name: ${person.name
+    3:hello}——miaomiao
+    age: 4
+  date: 2020/1/25
+  maps: {a1: b1,a2: b2}
+  lists: [study,music]
