@@ -1,0 +1,7 @@
+spring:
+  mvc:
+    favicon:
+      enabled: false
+#spring:
+#  resources:
+#    static-locations: classpath:/laozhoubg/,classpath:/xiaozhoubg/

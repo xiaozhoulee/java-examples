@@ -1,0 +1,8 @@
+# 配置忽略默认小图标
+spring:
+  mvc:
+    favicon:
+      enabled: false
+#spring: 配置静态资源保存的地址
+#  resources:
+#    static-locations: classpath:/laozhoubg/,classpath:/xiaozhoubg/

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test2</title>
+</head>
+<body>
+    <h1>test2</h1>
+
+<!--    转义输出-->
+    <div th:text="${msg}"></div>
+
+<!--    不转义-->
+    <div th:utext="${msg}"></div>
+
+<!--遍历数组-->
+    <!--th:each每次遍历都会生成当前这个标签：官网第9章-->
+    <h4 th:each="user : ${users}" th:text="${user}"></h4>
+
+    行内写法
+<!--    行内写法，官网第12章-->
+    <h4 th:each="user : ${users}"> [[${user}]] </h4>
+</body>
+</html>
