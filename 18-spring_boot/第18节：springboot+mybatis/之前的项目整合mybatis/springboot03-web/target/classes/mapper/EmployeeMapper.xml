@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xiaozhoubg.pojo.mapper.EmployeeMapper">
+
+    <select id="getEmployeeById" resultMap="EmployeeDepartment">
+    select * from staff.employee where id=#{id}
+  </select>
+
+    <select id="selectEmployee" resultMap="EmployeeDepartment">
+    select * from staff.employee
+  </select>
+
+<resultMap id="EmployeeDepartment" type="com.xiaozhoubg.pojo.Employee">
+<!--   1 department 实体类 2 column数据库 3 javaType需要引入的类型 4 select子查询，定义Department查询方法的名字-->
+    <association property="department" column="department" javaType="Department" select="selectDepartment" />
+</resultMap>
+<!--    id对应上边select resultType返回值类型，肯定是javaType-->
+    <select id="selectDepartment" resultType="Department">
+        select * from staff.department where id=#{id}
+    </select>
+
+    <insert id="addEmployee" parameterType="Employee">
+        insert into staff.employee (id, lastName, email, gender, department, birth) VALUES (#{id},#{lastName},#{email},#{gender},#{department.id},#{birth})
+    </insert>
+
+    <update id="updateEmployee" parameterType="Employee">
+            update staff.employee set lastName=#{lastName},email=#{email},gender=#{gender},department=#{department.id},birth=#{birth} where id=#{id}
+    </update>
+
+    <delete id="deleteEmployee" parameterType="int">
+        delete from employee where id=#{id}
+    </delete>
+
+
+
+
+
+    <!--    <insert id="addEmployee" parameterType="Employee">-->
+<!--&#45;&#45;         insert into fff (id, name, pwd) values (#{id},#{name},#{pwd})-->
+<!--        insert into employee (id, lastName, email, gender, department, birth) VALUES (#{id},#{lastName},#{email},#{gender},#{department},#{birth})-->
+<!--    </insert>-->
+<!--    <update id="updateEmployee" parameterType="Employee">-->
+<!--            update employee set lastName=#{lastName},email=#{email},gender=#{gender},department=#{department.id},birth=#{birth} where id=#{id}-->
+<!--    </update>-->
+
+<!--    <delete id="deleteEmployee" parameterType="int">-->
+<!--        delete from employee where id=#{id}-->
+<!--    </delete>-->
+</mapper>

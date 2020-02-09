@@ -1,0 +1,18 @@
+# 配置忽略默认小图标
+spring:
+  mvc:
+    favicon:
+      enabled: false
+    date-format: yyyy-MM-dd
+
+  # 配置国际化存储路径
+  messages:
+    basename: i18n.login
+  thymeleaf:
+    cache: true
+#禁用模板缓存
+
+
+#spring: 配置静态资源保存的地址
+#  resources:
+#    static-locations: classpath:/laozhoubg/,classpath:/xiaozhoubg/
