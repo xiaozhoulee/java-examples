@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:shiro="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>我是首页</h1>
+    <span th:text="${msg}"></span>
+    <br>
+    <a th:href="@{/user/login}" th:if="${session.loginSession==null}">去登陆</a>
+    <br>
+    <br>
+    <a th:href="@{/nologin}">注销</a>
+
+    <p>Hello,<shiro:principal property="name" />, how are you today?</p>
+
+    <br>
+    <a shiro:hasPermission="user:add" th:href="@{/user/add}">去添加页面</a>
+    <br>
+
+    <a shiro:hasPermission="user:update" th:href="@{/user/update}">去更改页面</a>
+</body>
+</html>
