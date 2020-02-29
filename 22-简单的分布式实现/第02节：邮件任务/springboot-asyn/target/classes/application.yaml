@@ -1,0 +1,13 @@
+spring:
+  mail:
+#    �������������������׵ľ��� smtp.163.com
+    host: smtp.qq.com
+#    �˻�
+    username: 342268316@qq.com
+#    SMTP����Ȩ��
+    password: odvggqspjcafbgje
+#    �����Ƿ���Ҫ��֤
+    properties:
+      mail:
+        smtp:
+          auth: true

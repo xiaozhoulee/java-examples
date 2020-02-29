@@ -1,0 +1,13 @@
+spring:
+  mail:
+#    设置主机，假如是网易的就是 smtp.163.com
+    host: smtp.qq.com
+#    账户
+    username: xxx@qq.com
+#    SMTP的授权码
+    password:
+#    设置是否需要认证
+    properties:
+      mail:
+        smtp:
+          auth: true

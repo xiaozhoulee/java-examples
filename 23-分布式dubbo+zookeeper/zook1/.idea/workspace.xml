@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85075f0d-c9e5-48a9-a5ab-595290000e83" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YK5W9PhVxbCrsfbJqOQpa4yRHr" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Zook1Application">
+    <configuration name="Zook1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zook1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaozhoubg.Zook1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zook2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zook2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Zook2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85075f0d-c9e5-48a9-a5ab-595290000e83" name="Default Changelist" comment="" />
+      <created>1582678473978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582678473978</updated>
+      <workItem from="1582678479775" duration="5371000" />
+      <workItem from="1582710865269" duration="697000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="829" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1582678701016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="829" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582678701016" />
+    <state x="754" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582678695318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="754" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582678695318" />
+    <state x="378" y="125" key="FileChooserDialogImpl" timestamp="1582711559533">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="125" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582711559533" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1582702430403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582702430403" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1582702430402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582702430402" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1582702430402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582702430402" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1582702430403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582702430403" />
+    <state width="1323" height="176" key="GridCell.Tab.1.bottom" timestamp="1582702430404">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582702430404" />
+    <state width="1323" height="176" key="GridCell.Tab.1.center" timestamp="1582702430403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582702430403" />
+    <state width="1323" height="176" key="GridCell.Tab.1.left" timestamp="1582702430403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582702430403" />
+    <state width="1323" height="176" key="GridCell.Tab.1.right" timestamp="1582702430403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582702430403" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582711465348">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582711465348" />
+    <state x="-27" y="71" width="1251" height="626" key="new project wizard" timestamp="1582711564652">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-27" y="71" width="1251" height="626" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582711564652" />
+  </component>
+</project>
