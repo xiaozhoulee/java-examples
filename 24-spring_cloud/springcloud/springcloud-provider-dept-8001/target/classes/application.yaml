@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8001
 #  config-location: classpath:mybatis/mybatis-config.xml
 #  mybatis
 mybatis:
@@ -16,3 +16,16 @@ spring:
     url: jdbc:mysql://localhost:3306/db01?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password: 123456
+
+#eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: springcloud-dept-8001
+
+info:
+  app.name: 模块名称
+  company.name: 公司名称
+  xiaozhoubg: xiaozhoubg

@@ -12,7 +12,21 @@
     <artifactId>springcloud-provider-dept-8001</artifactId>
 
     <dependencies>
-<!--        我们需要拿到实体类-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>1.4.4.RELEASE</version>
+        </dependency>
+
+<!--        完善监控信息描述页面-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-actuator -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!--        我们需要拿到实体类-->
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>springcloud-api</artifactId>

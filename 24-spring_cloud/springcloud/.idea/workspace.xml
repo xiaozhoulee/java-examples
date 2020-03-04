@@ -81,21 +81,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DeptProvider_8001">
-    <configuration name="SpringCloudProviderDept8082ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-provider-dept-8082" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaozhoubg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xiaozhoubg" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaozhoubg.SpringCloudProviderDept8082ApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeptProvider_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-provider-dept-8001" />
       <extension name="coverage">
@@ -129,6 +114,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="consumerDept80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-consumer-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaozhoubg.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaozhoubg.springcloud.consumerDept80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-eureka-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaozhoubg.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaozhoubg.springcloud.eureka_7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="springcloudproviderdept" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-provider-dept-8001" />
       <extension name="coverage">
@@ -145,9 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DeptProvider_8001" />
+        <item itemvalue="Spring Boot.eureka_7001" />
+        <item itemvalue="Spring Boot.consumerDept80" />
         <item itemvalue="Spring Boot.SpringCloudProviderDept8082Application (1)" />
         <item itemvalue="Spring Boot.springcloudproviderdept" />
-        <item itemvalue="JUnit.SpringCloudProviderDept8082ApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -156,12 +168,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:db01@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -178,7 +185,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582956270843</updated>
-      <workItem from="1582956274036" duration="21782000" />
+      <workItem from="1582956274036" duration="22091000" />
+      <workItem from="1583030672756" duration="15847000" />
     </task>
     <servers />
   </component>
@@ -194,10 +202,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="439" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582965488112" />
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1582980646934">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1583040182988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582980646934" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583040182988" />
     <state x="352" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582971166695">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -206,38 +214,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1582980405041" />
-    <state width="1323" height="206" key="GridCell.Tab.0.bottom" timestamp="1582988287217">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1583073559668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582988287217" />
-    <state width="1323" height="206" key="GridCell.Tab.0.center" timestamp="1582988287216">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583073559668" />
+    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1583073559668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582988287216" />
-    <state width="1323" height="206" key="GridCell.Tab.0.left" timestamp="1582988287216">
+    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583073559668" />
+    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1583073559668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582988287216" />
-    <state width="1323" height="206" key="GridCell.Tab.0.right" timestamp="1582988287217">
+    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583073559668" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1583073559668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582988287217" />
-    <state width="1323" height="206" key="GridCell.Tab.1.bottom" timestamp="1582988287220">
+    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583073559668" />
+    <state width="1323" height="203" key="GridCell.Tab.1.bottom" timestamp="1583073559669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582988287220" />
-    <state width="1323" height="206" key="GridCell.Tab.1.center" timestamp="1582988287218">
+    <state width="1323" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583073559669" />
+    <state width="1323" height="203" key="GridCell.Tab.1.center" timestamp="1583073559668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582988287217" />
-    <state width="1323" height="206" key="GridCell.Tab.1.left" timestamp="1582988287217">
+    <state width="1323" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583073559668" />
+    <state width="1323" height="203" key="GridCell.Tab.1.left" timestamp="1583073559668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582988287217" />
-    <state width="1323" height="206" key="GridCell.Tab.1.right" timestamp="1582988287219">
+    <state width="1323" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583073559668" />
+    <state width="1323" height="203" key="GridCell.Tab.1.right" timestamp="1583073559669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="206" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582988287219" />
+    <state width="1323" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583073559669" />
+    <state width="1326" height="220" key="GridCell.Tab.2.bottom" timestamp="1583062080957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1326" height="220" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583062080957" />
+    <state width="1326" height="220" key="GridCell.Tab.2.center" timestamp="1583062080957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1326" height="220" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1583062080957" />
+    <state width="1326" height="220" key="GridCell.Tab.2.left" timestamp="1583062080957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1326" height="220" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1583062080957" />
+    <state width="1326" height="220" key="GridCell.Tab.2.right" timestamp="1583062080957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1326" height="220" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1583062080957" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1582972906021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -250,14 +274,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582966778722" />
-    <state x="290" y="64" width="786" height="600" key="find.popup" timestamp="1582981323526">
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1583030671716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="290" y="64" width="786" height="600" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1582981323526" />
-    <state x="70" y="40" width="1251" height="605" key="new project wizard" timestamp="1582970429080">
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583030671716" />
+    <state x="290" y="64" width="786" height="600" key="find.popup" timestamp="1583066374590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="70" y="40" width="1251" height="605" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582970429080" />
+    <state x="290" y="64" width="786" height="600" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583066374590" />
+    <state x="115" y="131" width="1251" height="597" key="new project wizard" timestamp="1583051971374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="115" y="131" width="1251" height="597" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583051971374" />
     <state x="359" y="211" width="716" height="306" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1582986788230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -266,5 +294,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582972792389" />
+    <state x="803" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583032998504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="803" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583032998504" />
   </component>
 </project>
