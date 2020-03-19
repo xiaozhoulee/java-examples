@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+</head>
+<body>
+
+<form id="login-form" action="/login" method="post">
+
+    用户名: <input type="text" name="username">
+    密码: <input type="text" name="password">
+
+    <input type="submit" >
+</form>
+
+
+存好后第二部需要取了，从浏览器缓存取到token
+<button id="btn-user-info">获取用户信息</button>
+
+<script>
+    $('#login-form').submit(function (form) {
+        //阻止表单默认事件
+        form.preventDefault();
+        //通过ajax发送登录请求
+        var username =$('input[name=username]').val();
+        var password =$('input[name=password]').val();
+
+        var data ={
+            username:username,
+            password:password,
+        }
+
+        $.post('/login',data,function (resp) {
+            console.log(resp)
+            //登录之后把token存起来
+            window.localStorage.setItem("token",resp.token);
+
+        });
+
+
+        })
+
+    $('#btn-user-info').click(function () {
+        // 1.从缓存中取出token，
+        var token = window.localStorage.getItem('token');
+        // 2. 发送请求同时，把token放到请求头里
+        $.ajax({
+            url:'/info',
+            type:'get',
+            headers:{
+                token:token
+            },
+            success:function (resp) {
+
+                console.log(resp)
+
+
+            }
+        })
+
+    })
+</script>
+
+</body>
+</html>

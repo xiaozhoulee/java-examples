@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mian-module/mian-module.iml" filepath="$PROJECT_DIR$/mian-module/mian-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miaosha-module/miaosha-module.iml" filepath="$PROJECT_DIR$/miaosha-module/miaosha-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/passport-module/passport-module.iml" filepath="$PROJECT_DIR$/passport-module/passport-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-shop-test.iml" filepath="$PROJECT_DIR$/sso-shop-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vip-module/vip-module.iml" filepath="$PROJECT_DIR$/vip-module/vip-module.iml" />
+    </modules>
+  </component>
+</project>
