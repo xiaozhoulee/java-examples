@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1980f89-8e9a-46ed-a576-68c48ec2df16" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/apache-maven-3.5.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aKgMNwfnnVk5ahR8h2VGoA1ATI" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="JUnit.WeixinZhifuApplicationTests">
+    <configuration name="WeixinZhifuApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weixin_zhifu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaozhoubg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaozhoubg" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaozhoubg.WeixinZhifuApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeixinZhifuApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weixin_zhifu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaozhoubg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaozhoubg" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaozhoubg.WeixinZhifuApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeixinZhifuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="weixin_zhifu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaozhoubg.WeixinZhifuApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeixinZhifuApplicationTests" />
+        <item itemvalue="JUnit.WeixinZhifuApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1980f89-8e9a-46ed-a576-68c48ec2df16" name="Default Changelist" comment="" />
+      <created>1586489650713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586489650713</updated>
+      <workItem from="1586489658578" duration="7215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="282" key="GridCell.Tab.0.bottom" timestamp="1586514474415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586514474415" />
+    <state width="1493" height="282" key="GridCell.Tab.0.center" timestamp="1586514474415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586514474415" />
+    <state width="1493" height="282" key="GridCell.Tab.0.left" timestamp="1586514474415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586514474415" />
+    <state width="1493" height="282" key="GridCell.Tab.0.right" timestamp="1586514474415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="282" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586514474415" />
+    <state width="1082" height="145" key="GridCell.Tab.1.bottom" timestamp="1586514474411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1082" height="145" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586514474411" />
+    <state width="1082" height="145" key="GridCell.Tab.1.center" timestamp="1586514474411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1082" height="145" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586514474411" />
+    <state width="1082" height="145" key="GridCell.Tab.1.left" timestamp="1586514474411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1082" height="145" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586514474411" />
+    <state width="1082" height="145" key="GridCell.Tab.1.right" timestamp="1586514474411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1082" height="145" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586514474411" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1586489678657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586489678657" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586505020506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1586505020506" />
+    <state x="607" y="141" width="642" height="534" key="find.popup" timestamp="1586505015426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="607" y="141" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1586505015426" />
+    <state x="178" y="114" key="new project wizard" timestamp="1586514470947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="114" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586514470947" />
+  </component>
+</project>
