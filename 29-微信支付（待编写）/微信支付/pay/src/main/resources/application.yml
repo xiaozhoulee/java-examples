@@ -1,6 +1,0 @@
-server:
-  port: 80
-
-
-pays:
-  http: http://1adba1d5.ngrok.io

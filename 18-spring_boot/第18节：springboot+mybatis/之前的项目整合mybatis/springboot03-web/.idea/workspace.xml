@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95a1cc6-15e8-4861-be8f-b6d6db70b1c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaozhoubg/config/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaozhoubg/config/MyMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springboot03-web.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaozhoubg/config/MyMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiaozhoubg/config/MyMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef1bf17b-9f16-478d-8d99-db6426be2929.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ef1bf17b-9f16-478d-8d99-db6426be2929.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\java_file\java-examples\18-spring_boot\第18节：springboot+mybatis\之前的项目整合mybatis\springboot03-web\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -168,6 +171,7 @@
       <workItem from="1580905076015" duration="4545000" />
       <workItem from="1580965147044" duration="29636000" />
       <workItem from="1581489166045" duration="625000" />
+      <workItem from="1592829340709" duration="8000" />
     </task>
     <servers />
   </component>
