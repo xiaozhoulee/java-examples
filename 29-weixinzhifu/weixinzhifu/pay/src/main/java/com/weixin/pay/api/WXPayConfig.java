@@ -10,33 +10,28 @@ package com.weixin.pay.api;
  */
 public class WXPayConfig {
 
-
     /**
      * 获取 App ID
      *
      * @return App ID
      */
     public static String getAppID() {
-        return "XXXXXXXXXXXXXXX";
+        return "appid";
     }
-
     /**
      * 获取 Mch ID  (安装证书的商户ID)
      *
      * @return Mch ID
      */
     public static String getMchID() {
-        return "XXXXXXXXXXXXXXXX";
+        return "商户号";
     }
-
     /**
      * 获取 API 密钥
      *
      * @return API密钥
      */
     public static String getKey() {
-        return "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+        return "appkey";
     }
-
-
 }

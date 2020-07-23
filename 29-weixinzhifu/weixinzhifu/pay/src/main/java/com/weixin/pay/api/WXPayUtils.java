@@ -182,7 +182,7 @@ public class WXPayUtils {
         sb.append("</xml>");
 
         String url = "https://api.mch.weixin.qq.com/secapi/pay/refund";
-        String str = new HttpCertClientUtils().post(url, sb.toString(), CertConfig.getCert(), WXPayConfig.getMchID());
+        String str = new HttpCertClientUtils().post(url, sb.toString(), CertConfig.getCert(), "1518025021");
 
         Map<String, String> retmap = new HashMap<>();
         try {

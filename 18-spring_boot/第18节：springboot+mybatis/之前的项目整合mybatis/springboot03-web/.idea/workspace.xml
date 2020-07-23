@@ -2,7 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95a1cc6-15e8-4861-be8f-b6d6db70b1c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef1bf17b-9f16-478d-8d99-db6426be2929.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ef1bf17b-9f16-478d-8d99-db6426be2929.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../29-weixinzhifu/weixinzhifu/pay/src/main/resources/static/cert/apiclient_cert.p12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot03-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot03-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/微信支付/微信支付.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/(45条消息)微信小程序JSAPI支付-参数异常以及验证签名失败总结_qq_38371367的博客-CSDN博客_jsapi 支付验证签名失败.mhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/src/main/java/com/github/wxpay/sdk/IWXPayDomain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/src/main/java/com/github/wxpay/sdk/WXPay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/src/main/java/com/github/wxpay/sdk/WXPayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/src/main/java/com/github/wxpay/sdk/WXPayConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/src/main/java/com/github/wxpay/sdk/WXPayReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/src/main/java/com/github/wxpay/sdk/WXPayRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/src/main/java/com/github/wxpay/sdk/WXPayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/src/main/java/com/github/wxpay/sdk/WXPayXmlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/java_sdk_v3.0.9/wxpay-sdk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/PayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/api/CertConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/api/WXPayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/api/WXPayUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/api/WXRefundUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/controller/WXPayCloseConntroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/controller/WXPayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/controller/WXPayQueryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/controller/WXPayRefundController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/controller/WXPayRefundQueryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/sdk/WXPayConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/sdk/WXPayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/sdk/WXPayXmlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/utils/HttpCertClientUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/utils/HttpClientUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/java/com/weixin/pay/utils/ResponseUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/cert/apiclient_cert.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery-qrcode-0.14.0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery-qrcode-0.14.0/demo/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery-qrcode-0.14.0/demo/dummy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery-qrcode-0.14.0/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery-qrcode-0.14.0/demo/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery-qrcode-0.14.0/demo/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery-qrcode-0.14.0/demo/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery-qrcode-0.14.0/jquery-qrcode-0.14.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery-qrcode-0.14.0/jquery-qrcode-0.14.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/static/jquery/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/templates/index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/templates/pay.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/templates/payclose.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/templates/paycode.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/templates/payquery.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/templates/payrefund.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/main/resources/templates/refundquery.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第02节：微信支付/pay/src/test/java/com/weixin/pay/PayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/(45条消息)springboot 网页授权微信登录_恋上、小幸福的博客-CSDN博客_springboot微信登录.mhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/(45条消息)springboot之扫码登录实战_快速成长的小菜鸟-CSDN博客_springboot 微信扫码登录.mhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/(45条消息)微信公众号网页授权登录_@能能的博客-CSDN博客_微信公众号登录.mhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/src/main/java/com/lzp/SpringBootScanLoginApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/src/main/java/com/lzp/controller/CoreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/src/main/java/com/lzp/utils/HttpRequestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/src/main/resources/templates/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/src/main/resources/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/spring-boot-scan-login/src/test/java/com/lzp/SpringBootScanLoginApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../29-微信支付（这是笔记）/第03节：微信登录/自定义微信登录扫码样式解决办法 - 简书.mhtml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +257,7 @@
       <workItem from="1580965147044" duration="29636000" />
       <workItem from="1581489166045" duration="625000" />
       <workItem from="1592829340709" duration="8000" />
+      <workItem from="1594864978751" duration="213000" />
     </task>
     <servers />
   </component>
@@ -179,97 +265,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580965406935">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1594864994199">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="550" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580965406935" />
-    <state x="409" y="224" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580570539027">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="409" y="224" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580570539027" />
-    <state x="750" y="76" key="#com.intellij.ide.util.MemberChooser" timestamp="1580708327324">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="750" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580708327324" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580903798762">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580903798762" />
-    <state width="1323" height="164" key="GridCell.Tab.0.bottom" timestamp="1581489792737">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581489792737" />
-    <state width="1323" height="164" key="GridCell.Tab.0.center" timestamp="1581489792737">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581489792737" />
-    <state width="1323" height="164" key="GridCell.Tab.0.left" timestamp="1581489792737">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581489792737" />
-    <state width="1323" height="164" key="GridCell.Tab.0.right" timestamp="1581489792737">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581489792737" />
-    <state width="1323" height="164" key="GridCell.Tab.1.bottom" timestamp="1581489792737">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581489792737" />
-    <state width="1323" height="164" key="GridCell.Tab.1.center" timestamp="1581489792737">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581489792737" />
-    <state width="1323" height="164" key="GridCell.Tab.1.left" timestamp="1581489792737">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581489792737" />
-    <state width="1323" height="164" key="GridCell.Tab.1.right" timestamp="1581489792737">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="164" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581489792737" />
-    <state width="637" height="219" key="GridCell.Tab.2.bottom" timestamp="1580818232571">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="637" height="219" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580818232571" />
-    <state width="637" height="219" key="GridCell.Tab.2.center" timestamp="1580818232571">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="637" height="219" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1580818232571" />
-    <state width="637" height="219" key="GridCell.Tab.2.left" timestamp="1580818232571">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="637" height="219" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1580818232571" />
-    <state width="637" height="219" key="GridCell.Tab.2.right" timestamp="1580818232571">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="637" height="219" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1580818232571" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1580637892138">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580637892138" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1580353930930">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1580353930930" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1580784528069">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580784528069" />
-    <state x="312" y="66" width="1012" height="600" key="find.popup" timestamp="1580572216795">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="312" y="66" width="1012" height="600" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1580572216795" />
-    <state x="57" y="66" key="new project wizard" timestamp="1580965969597">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="57" y="66" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1580965969597" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1580807986772">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580807986772" />
-    <state x="367" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580996811477">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="367" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580996811477" />
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1594864994199" />
   </component>
 </project>
