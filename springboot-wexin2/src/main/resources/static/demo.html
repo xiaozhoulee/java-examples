@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>测试jssdk</title>
+    <!--引入微信JS文件-->
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript"></script>
+    <!--引入jquery-->
+    <script src="/jquery-2.1.1.min.js"></script>
+    <script src="/jquery.js"></script>
+<script>
+    //获取当前页面地址
+    var url = window.location.href;
+    //调取后台接口获取权限验证配置
+    $.ajax({
+        type : "get",
+        /*！！！切记到时候改成自己的*/
+        url : "http://"+"xzkeji.cn"+"/weixin/initWXJSSDKConfigInfo?url="+url,//替换网址，xxx根据自己jssdk文件位置修改
+        success : function(data){
+            console.log("返回值为=" + data);
+            var msg = "";
+            if(data.success){
+                msg = JSON.parse(data.msg);
+            }
+            //通过config接口注入权限验证配置
+            wx.config({
+                debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印
+                appId: msg.appid,
+                timestamp: msg.timestamp,
+                nonceStr: msg.nonceStr,
+                signature: msg.signature,
+                /*！！！切记到时候按需自己选择，参考文档填写*/
+                jsApiList: [
+                    "onMenuShareAppMessage",//分享给好友
+                    "chooseImage",
+                    "onMenuShareQQ",
+                    "onMenuShareTimeline"
+                ]
+            });
+        },
+        error:function(data){
+            alert(JSON.stringify(data));
+        }
+    });
+
+    //通过ready接口处理成功验证
+    wx.ready(function (){
+        wx.checkJsApi({
+            jsApiList: ['chooseImage','onMenuShareAppMessage'],
+            success: function (res) {JSON.stringify(res)}
+        });
+
+        var shareData = {
+            title: '标题：测试微信分享',
+            desc: '简介：测试微信分享测试微信分享测试微信分享测试微信分享测试微信分享',//这里请特别注意是要去除html
+            link: url,
+            imgUrl: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3080194764,1306521378&fm=15&gp=0.jpg',
+            success: function (res) {
+                alert('已分享');
+            },
+        };
+        wx.onMenuShareQQ(shareData)
+        wx.onMenuShareTimeline(shareData)
+        wx.onMenuShareAppMessage(shareData);
+
+
+    });
+    //从相册选取图片
+    function wxchooseImage(){
+        wx.chooseImage({
+            count: 1, // 默认9
+            sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+            sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+            success: function (res) {
+                var localIds = res.localIds; // 返回选定照片的本地ID列表，localId可以作为img标签的src属性显示图片
+                alert("你的图片转成地址是👉"+localIds)
+            }
+        });
+    }
+</script>
+</head>
+<body>
+<button onclick="wxchooseImage();">点我选取相册</button>
+</body>
+</html>

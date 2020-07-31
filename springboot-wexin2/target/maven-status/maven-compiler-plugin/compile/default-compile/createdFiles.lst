@@ -1,0 +1,6 @@
+net\javadog\springbootwexin\utils\WxUtil.class
+net\javadog\springbootwexin\common\AjaxJson.class
+net\javadog\springbootwexin\controller\WxInitController.class
+net\javadog\springbootwexin\service\WxService.class
+net\javadog\springbootwexin\SpringbootWexinApplication.class
+net\javadog\springbootwexin\utils\WxUtil$1.class
